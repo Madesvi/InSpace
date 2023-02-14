@@ -4,15 +4,10 @@
   box-sizing: border-box;
 }
 
-/* font-family: 'Josefin Sans', sans-serif;
-font-family: 'Judson', serif;
-font-family: 'Kaushan Script', cursive; */
-
-/* for future changes -  */
+/* for future changes - #F3825B - MARS #476A83 - Europa #829FD5 - Neptune */
 
 body {
   font-family: "Judson", sans-serif;
-  /* background: linear-gradient(28.64deg, #117bc7 0%, #000000 61.68%); */
   margin: 0;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -26,16 +21,16 @@ body {
   background: linear-gradient(28.64deg, #117bc7 0%, #000000 61.68%);
 }
 
-.info {
-  background: linear-gradient(28.64deg, #c78d11 0%, #000000 61.68%);
+.mars {
+  background: linear-gradient(28.64deg, #f3825b 0%, #000000 61.68%);
 }
 
-.about {
-  background: linear-gradient(28.64deg, #11c7b8 0%, #000000 61.68%);
+.europa {
+  background: linear-gradient(28.64deg, #476a83 0%, #000000 61.68%);
 }
 
-.tech {
-  background: linear-gradient(28.64deg, #5711c7 0%, #000000 61.68%);
+.neptune {
+  background: linear-gradient(28.64deg, #829fd5 0%, #000000 61.68%);
 }
 
 .flex {
