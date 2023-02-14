@@ -8,9 +8,11 @@
 font-family: 'Judson', serif;
 font-family: 'Kaushan Script', cursive; */
 
+/* for future changes -  */
+
 body {
   font-family: "Judson", sans-serif;
-  background: linear-gradient(28.64deg, #117bc7 0%, #000000 61.68%);
+  /* background: linear-gradient(28.64deg, #117bc7 0%, #000000 61.68%); */
   margin: 0;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -18,6 +20,22 @@ body {
   flex-direction: column;
 
   overflow-x: hidden;
+}
+
+.home {
+  background: linear-gradient(28.64deg, #117bc7 0%, #000000 61.68%);
+}
+
+.info {
+  background: linear-gradient(28.64deg, #c78d11 0%, #000000 61.68%);
+}
+
+.about {
+  background: linear-gradient(28.64deg, #11c7b8 0%, #000000 61.68%);
+}
+
+.tech {
+  background: linear-gradient(28.64deg, #5711c7 0%, #000000 61.68%);
 }
 
 .flex {
